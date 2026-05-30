@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pyc
+*.pkl
+*.joblib
+data/raw/*
+data/interim/*
+data/processed/*
+data/synthetic/*
+models/*
+reports/figures/*
+!.gitkeep

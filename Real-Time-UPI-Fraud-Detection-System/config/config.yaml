@@ -1,0 +1,12 @@
+project:
+  name: Real-Time-UPI-Fraud-Detection-System
+  random_state: 42
+
+data:
+  synthetic_rows: 10000
+  fraud_rate: 0.03
+
+model:
+  contamination: 0.04
+  n_estimators: 300
+  threshold_candidates: 100
